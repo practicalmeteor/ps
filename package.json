@@ -1,19 +1,21 @@
 {
-    "name": "ps-node",
-    "version": "0.0.3",
-    "description": "A process lookup utility",
+    "name": "psext",
+    "version": "0.0.4",
+    "description": "A process lookup utility, with support for ppid filtering",
     "main": "index.js",
+    "homepage": "https://github.com/practicalmeteor/ps",
     "repository": {
         "type": "git",
-        "url": "git://github.com/neekey/ps.git"
+        "url": "https://github.com/practicalmeteor/ps.git"
     },
     "keywords": [
         "ps",
         "process",
         "lookup",
-        "pid"
+        "pid",
+        "ppid"
     ],
     "dependencies": {
-        "table-parser": "*"
+        "table-parser": "0.0.3"
     }
 }
