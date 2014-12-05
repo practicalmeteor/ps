@@ -1,16 +1,16 @@
-# ps
+# psext
 
-A Node.js module for looking up running processes.
+A node.js npm package for looking up running processes.
 
 ## Install
 
 ```bash
-$ npm install ps-node
+$ npm install psext
 ```
 
 ## Usage
 
-Lookup process with spicified `pid`:
+Lookup process with specified `pid`:
 
 ```javascript
 var ps = require('ps-node');
