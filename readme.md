@@ -13,7 +13,7 @@ $ npm install psext
 Lookup process with specified `pid`:
 
 ```javascript
-var ps = require('ps-node');
+var ps = require('psext');
 
 // A simple pid lookup
 ps.lookup({ pid: 12345 }, function(err, resultList ) {
