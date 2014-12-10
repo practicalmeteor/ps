@@ -1,6 +1,6 @@
 # psext
 
-A node.js npm package for looking up running processes.
+A node.js npm package for looking up running processes, with support for ppid filtering.
 
 ## Install
 
