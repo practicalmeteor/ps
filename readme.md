@@ -5,7 +5,7 @@ A node.js npm package for looking up running processes, with support for ppid fi
 ## Install
 
 ```bash
-$ npm install psext
+$ npm install psext --save
 ```
 
 ## Usage
