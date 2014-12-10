@@ -24,7 +24,7 @@ ps.lookup({ pid: 12345 }, function(err, resultList ) {
   var process = resultList[ 0 ];
 
   if(process) {
-    console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+    console.log('PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments);
   } else {
     console.log( 'No such process found!' );
   }
@@ -47,7 +47,7 @@ ps.lookup({
 
   resultList.forEach(function( process ){
     if( process ){
-      console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+      console.log('PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments);
     }
   });
 });
@@ -84,7 +84,7 @@ ps.lookup({
 
   resultList.forEach(function( process ){
     if( process ){
-      console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+      console.log('PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments);
     }
   });
 });
@@ -107,7 +107,7 @@ ps.lookup({
 
   resultList.forEach(function( process ){
     if( process ){
-      console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+      console.log('PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments);
     }
   });
 });
